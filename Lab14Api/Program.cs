@@ -20,3 +20,4 @@ app.MapGet("/api/saludo", () => new
 app.MapGet("/health", () => Results.Ok("OK"));
 
 app.Run();
+// Lab14: verificación de Actions
