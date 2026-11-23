@@ -8,7 +8,7 @@ if (!string.IsNullOrEmpty(port))
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Lab14 .NET 8 funcionando");
+app.MapGet("/", () => "Lab14 .NET 8 funcionando v2");
 
 app.MapGet("/api/saludo", () => new
 {
